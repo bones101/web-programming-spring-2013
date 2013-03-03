@@ -6299,3 +6299,6 @@ button.close {
     overflow: visible !important;
   }
 }
+#world img {
+	left: 50%;
+}
