@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <title>Bones CS5311.B</title>
-<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/assnphp.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <div class="container">
-  <div class="header"><a href="#"><img src="mysqlphp.jpg" width="169" height="169" alt="logo"> </a> 
+  <div class="header"><a href="#"><img src="images/mysqlphp.jpg" width="169" height="169" alt="logo"> </a> 
   <h1> CS5311.B | Advanced Web Programming
  </h1>
     <!-- end .header --></div>
   <div class="sidebar1">
     <ul class="nav">
-      <li><a href="#">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="#">Link two</a></li>
       <li><a href="#">Link three</a></li>
       <li><a href="#">Link four</a></li>

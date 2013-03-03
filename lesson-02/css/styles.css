@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+header, footer {
+	position: relative;
+	padding: 5px;
+	background: rgb(136,183,208); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(136,183,208,1) 0%, rgba(217,240,251,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(136,183,208,1)), color-stop(100%,rgba(217,240,251,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(136,183,208,1) 0%,rgba(217,240,251,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(136,183,208,1) 0%,rgba(217,240,251,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(136,183,208,1) 0%,rgba(217,240,251,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88b7d0', endColorstr='#d9f0fb',GradientType=0 ); /* IE6-9 */
+/*	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: linear-gradient(;
+	background-position: left top;*/
+}
+footer {
+	margin-top: 10px;
+}
+
+.newspaper
+{
+-moz-column-count:3; /* Firefox */
+-webkit-column-count:3; /* Safari and Chrome */
+column-count:3;
+
+-moz-column-gap:50px; /* Firefox */
+-webkit-column-gap:55px; /* Safari and Chrome */
+column-gap:50px;
+
+-moz-column-rule:1px outset #000; /* Firefox */
+-webkit-column-rule:1px outset #000; /* Safari and Chrome */
+column-rule:1px outset #000;
+/*Not supported yet but...*/
+column-fill:auto;
+}
+
+p#world img{ /* Rotate world 360deg  */
+	-moz-transition: all 4s ease-in-out;
+	-webkit-transition: all 4s ease-in-out;
+	-o-transition: all 4s ease-in-out;
+	-ms-transition: all 4s ease-in-out;
+	transition: all 4s ease-in-out;
+	float: right;
+	margin-top: 6px;
+	margin-right: 6px;
+	margin-bottom: 20px;
+	margin-left: 6px;
+}
+
+p#world img:hover{
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+transform: rotate(360deg);
+}
+
+p#wordwrap {
+	word-wrap:break-word;
+}
+.nav ul li {
+	border: 1px solid #a1a1a1;
+	border-radius: 10px;
+	-moz-border-radius: 25px; /* Old Firefox */
+	background-color: #E1E1E1;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+a {
+  color: #0088cc;
+  text-decoration: none;
+  	display: block;
+}
+a:hover,
+a:focus {
+	color: #005580;
+	font-size: 120%;
+}
+.nav ul li a {
+	display: block;
+}
+
+.nav ul li:hover {
+	background-color: #F4E3A2;
