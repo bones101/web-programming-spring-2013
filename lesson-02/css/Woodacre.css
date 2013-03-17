@@ -125,7 +125,8 @@
 
     /* Center align the text within the three columns below the carousel */
     .marketing .span4 {
-      text-align: center;
+	text-align: left;
+	/* [disabled]margin-left: 10%; */
     }
     .marketing h2 {
       font-weight: normal;
@@ -239,6 +240,7 @@
       .marketing .span4 + .span4 {
         margin-top: 40px;
       }
+
 
       .featurette-heading {
         font-size: 30px;

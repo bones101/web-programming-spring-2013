@@ -1894,6 +1894,7 @@ input.search-query {
   -webkit-border-radius: 14px 0 0 14px;
   -moz-border-radius: 14px 0 0 14px;
   border-radius: 14px 0 0 14px;
+
 }
 .form-search .input-append .btn {
   -webkit-border-radius: 0 14px 14px 0;
@@ -2192,6 +2193,7 @@ input[type="button"].btn-block {
 .btn-primary:active,
 .btn-primary.active,
 .btn-primary.disabled,
+
 .btn-primary[disabled] {
   color: #ffffff;
   background-color: #0044cc;
@@ -3363,6 +3365,7 @@ input[type="submit"].btn.btn-mini {
   border-radius: 0 0 4px 4px;
 }
 .tabs-below > .nav-tabs > li > a:hover,
+
 .tabs-below > .nav-tabs > li > a:focus {
   border-bottom-color: transparent;
   border-top-color: #ddd;
@@ -3931,6 +3934,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .btn-navbar:active,
 .navbar-inverse .btn-navbar.active,
 .navbar-inverse .btn-navbar.disabled,
+
 .navbar-inverse .btn-navbar[disabled] {
   color: #ffffff;
   background-color: #040404;
@@ -5260,6 +5264,7 @@ button.close {
 .visible-tablet {
   display: none !important;
 }
+
 .hidden-desktop {
   display: none !important;
 }
@@ -5672,6 +5677,7 @@ button.close {
     margin-left: 62.70718232044199%;
     *margin-left: 62.600799341718584%;
   }
+
   .row-fluid .offset7:first-child {
     margin-left: 59.94475138121547%;
     *margin-left: 59.838368402492065%;
@@ -6048,6 +6054,7 @@ button.close {
     margin-left: 25.641025641025642%;
     *margin-left: 25.53464266230224%;
   }
+
   .row-fluid .offset2 {
     margin-left: 19.65811965811966%;
     *margin-left: 19.551736679396257%;

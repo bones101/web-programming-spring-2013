@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Woodacre Field Trip 2103</title>
+    <title>Marin Bonsai Club</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -37,13 +37,14 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="#">Project name</a>
+            <a class="brand" href="#">Marin Bonsai Club</a>
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a data-toggle="modal" href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a data-toggle="modal" data-target="#contactus">Contact</a></li>
+                
                 <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
@@ -76,7 +77,7 @@
           <div class="container">
             <div class="carousel-caption">
               <h1>Marin Bonsai Club Dig</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p class="lead">This is our revered President, Tim.  He is psyched to be digging up what we think are Aspens in Woodacre, California.</p>
               <a class="btn btn-large btn-primary" href="#">Sign up today</a>
             </div>
           </div>
@@ -85,8 +86,8 @@
           <img src="images/Roger.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <h1>Roger digs in with a smile.</h1>
+              <p class="lead">His smile didn't last long though. It was a bit more work than he was expecting.  The team pitched in and helped Roger get his Aspen clump.</p>
               <a class="btn btn-large btn-primary" href="#">Learn more</a>
             </div>
           </div>
@@ -95,8 +96,8 @@
           <img src="images/Jay.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <h1>Our ringleader, Jay.</h1>
+              <p class="lead">We wondered why he brought kneepads on our field trip!</p>
               <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
             </div>
           </div>
@@ -118,19 +119,21 @@
       <div class="row">
         <div class="span4">
           <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+          <h2>Activities</h2>
+          <p>Our monthly meetings and workshops are at the Marin Art and Garden Center, 30 Sir Francis Drake Blvd., Ross, CA. See the Events page of this Web site for details on upcoming meetings.</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div><!-- /.span4 -->
+        
         <div class="span4">
           <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Heading</h2>
+          <h2>Resources</h2>
           <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div><!-- /.span4 -->
+        
         <div class="span4">
           <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Heading</h2>
+          <h2>Membership</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div><!-- /.span4 -->
@@ -173,6 +176,8 @@
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
+      
+
       <div id="about" class="modal hide fade">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -186,6 +191,26 @@
   </div>
 </div>
 
+<div id="contactus" class="modal hide fade">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3>I'd like to join the Marin Bonsai Club!</h3>
+  </div>
+  <div class="modal-body">
+    <div class="row"><p class="span2">Name</p><input type="text" id="customername" class="span4" /></div>
+    <div class="row"><p class="span2">Email</p><input type="email" id="customeremail" class="span4" /></div>
+    <div class="row"><p class="span2">Phone</p><input type="tel" id="customertel" class="span4" /></div>
+    <div class="row"><p class="span2">Full Membership $45</p><input type="checkbox"  class="span1 services" value="full" /></div>
+    <div class="row"><p class="span2">Associate $30</p><input type="checkbox"  class="span1 services" value="assoc" /></div>
+    <div class="row"><p class="span2">Student $20</p><input type="checkbox"  class="span1 services" value="student" /></div>
+   
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn" data-dismiss="modal" >Close</a>
+    <a href="#" class="btn btn-primary" data-dismiss="modal" id="send-contact" >Send</a>
+  </div>
+</div>
+
     </div><!-- /.container -->
 
 <canvas id="wavyfooter"> </canvas>
@@ -193,10 +218,10 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <!-- jqeury.min.js linked to from jquery.com Quick Access, add "http:" -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript"src="lib/paper.js"></script>
+    <script type="text/javascript" src="lib/paper.js"></script>
+    <script type="text/javascript" src="js/send-contact.js"> </script>
     <script type="text/paperscript" canvas="wavyfooter" src="js/waves.js"></script>
     <script>
       !function ($) {

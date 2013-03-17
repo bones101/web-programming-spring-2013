@@ -39,7 +39,7 @@ column-fill:auto;
 }
 
 
-p#world img{ /* Rotate world 360deg  */
+#world img{ /* Rotate world 360deg  */
 	-moz-transition: all 4s ease-in-out;
 	-webkit-transition: all 4s ease-in-out;
 	-o-transition: all 4s ease-in-out;
@@ -52,7 +52,7 @@ p#world img{ /* Rotate world 360deg  */
 	margin-left: 6px;
 }
 
-p#world img:hover{
+#world img:hover{
 -moz-transform: rotate(360deg);
 -webkit-transform: rotate(360deg);
 -o-transform: rotate(360deg);
@@ -68,9 +68,9 @@ p#wordwrap {
 	border-radius: 10px;
 	-moz-border-radius: 25px; /* Old Firefox */
 	background-color: #E1E1E1;
-	padding-top: 10px;
+	padding-top: 5px;
 	padding-right: 15px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	padding-left: 15px;
 	display: inline-block;
 	margin-top: 5px;
@@ -87,7 +87,8 @@ a:focus {
 	font-size: 120%;
 }
 .nav ul li a {
-	display: block;
+	display: inline;
+	position: relative;
 }
 
 .nav ul li:hover {
@@ -105,4 +106,19 @@ a:focus {
 	padding-top: 5%;
 	padding-right: 5%;
 	padding-bottom: 5%;
+}
+
+#hovercraft img {
+	-moz-transition: all 2s ease-in-out;
+	-webkit-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+	-ms-transition: all 2s ease-in-out;
+	transition: all 2s ease-in-out;
+}
+
+
+#hovercraft img:hover {
+	transform:rotateY(180deg);
+	-webkit-transform:rotateY(180deg); /* Safari and Chrome */
+	-moz-transform:rotateY(180deg); /* Firefox */
 }
